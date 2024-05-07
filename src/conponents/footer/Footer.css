@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo img {
+  width: 50px;
+}
+
+.footer-logo p {
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.footer-link {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-social-icons {
+    display: flex;
+    gap:30px;
+}
+
+.footer-social-icons img {
+    width: 30px;
+}
