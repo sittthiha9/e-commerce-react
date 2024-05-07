@@ -1,9 +1,9 @@
 import { useContext } from "react";
 import { useParams } from "react-router-dom";
 import Breadcrumb from "../conponents/breadcrumb/Breadcrumb";
-import ProductDisplay from "../conponents/productDisplay/ProductDisplay";
-import DescriptionBox from "../conponents/descriptionBox/DescriptionBox";
-import RelatedProducts from "../conponents/related products/RelatedProducts";
+import ProductDisplay from "../conponents/product-display/ProductDisplay";
+import DescriptionBox from "../conponents/description-box/DescriptionBox";
+import RelatedProducts from "../conponents/related-products/RelatedProducts";
 import { ShopContext } from "../contexts/ShopContext";
 
 const Products = () => {
